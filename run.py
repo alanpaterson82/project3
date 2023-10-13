@@ -1,18 +1,18 @@
 import random
 name = input("Type your name: ")
-print("Good luck!", name)
+print("Good luck", name)
 words = [
-    "Tiger",
-    "Lion",
-    "Elephant",
-    "Giraffe",
-    "Hippopotamus",
-    "Antelope",
-    "Zebra",
-    "Hyena",
-    "Rhinoceros",
-    "Bear",
-    "Leopard",
+    "tiger",
+    "lion",
+    "elephant",
+    "giraffe",
+    "hippopotamus",
+    "antelope",
+    "zebra",
+    "hyena",
+    "rhinoceros",
+    "bear",
+    "leopard",
 ]
 word = random.choice(words)
 print("\nChoose a letter")
