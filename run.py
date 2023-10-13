@@ -1,5 +1,5 @@
 import random
-name = input("Type your name: ")
+name = input("Type your name:\n")
 print("Good luck", name)
 words = [
     "tiger",
@@ -22,15 +22,15 @@ while tries > 0:
     failed = 0
     for char in word:
         if char in guesses:
-            print(char, end = "")
+            print(char, end="")
         else:
-            print("_", end = "")
+            print("_", end="")
             failed += 1
     if failed == 0:
         print("\n\nCongratulations!")
         print("\nThe word was:", word)
         break
-    guess = input("\n\nChoose a letter: ")
+    guess = input("\n\nChoose a letter:\n")
     guesses += guess
     if guess not in word:
         tries -= 1
