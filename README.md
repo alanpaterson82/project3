@@ -1,8 +1,8 @@
 # Hangman
 
-For my third project, using Python, I have created a version of the popular game 'Hangman'. The player guesses either letter by letter or by inputting the full word until it is correct or they have run out of tries ( a maximum of 10).
+For my third project, using Python, I have created a version of the popular word game 'Hangman'. A player guesses what the randomly selected word is either letter by letter, or by inputting the full word until it is correct or they have run out of tries ( a maximum of 10).
 
-This game is targeted towards those who are interested in very simple word activities, or the working of Python.
+The game is targeted at those who are interested in very simple word activities, or the workings of Python.
 
 The live project can be found [here](https://project3--hangman-4b777c3fbb05.herokuapp.com/).
 
@@ -16,6 +16,7 @@ The live project can be found [here](https://project3--hangman-4b777c3fbb05.hero
 ![Type Your Name](documentation/typeyourname.png)
 
 <br>
+
 - You are then prompted to guess either a letter that may be part of the word, or the whole word at once
 
 ![Good Luck Choose A Letter](documentation/goodluckchoosealetter.png)
@@ -36,13 +37,13 @@ The live project can be found [here](https://project3--hangman-4b777c3fbb05.hero
 
 <br>
 
-- After you have used all of your attempts you will receive the message 'Better Luck Next Time! The word was (insert correct word here)
+- After you have used all of your attempts you will receive the message 'Better Luck Next Time! The word was ------
 
 ![Better Luck Next Time](documentation/betterlucknexttime.png)
 
 <br>
 
-- In both scenarios you will be able to either play again by clicking 'y' then Enter, or any other key then Enter to exit the game
+- In both scenarios you will be able to either play again by clicking 'y' then Enter, or any other key then Enter to exit the game as shown in the image above
 
 <br>
 To explain this further I have included a Flowchart using Lucidchart:
@@ -55,8 +56,8 @@ To explain this further I have included a Flowchart using Lucidchart:
 
 ## Future Plans
 
-- To further improve the user experience in future versions I would limit the guesses (i.e only allow single letters with an appropriate warning if this is not adhered to).
-- I would also include improved graphics with incorrect guesses resulting in a symbolic body part being added to the hangman's noose as per the classic game
+- To further improve the user experience in future versions I would limit the guesses (i.e only allow single letters with an appropriate warning if this is not adhered to)
+- I would also include improved graphics with incorrect guesses resulting in a symbolic body part being added to the 'hangman' as per the classic game
 
 <br>
 
@@ -64,7 +65,7 @@ To explain this further I have included a Flowchart using Lucidchart:
 
 I have tested this project by completing the following:
 
-- Inputting the through the CI PEP8 Python validator which confirmed that there were no errors
+- Copying the code to the CI PEP8 Python validator which confirmed that there were no errors
 
 ![PEP8 Validator](documentation/pep8pythonvalidator.png)
 
@@ -76,7 +77,7 @@ I have tested this project by completing the following:
 
 ## Bugs
 
-- I removed the capitqal letters from the list of possible words as they were not being recognised. A future solution would be to write the relevant code to fix this, however, this was an issue that I was unable to resolve on this occasion
+- I removed the capital letters from the list of possible answers as they were not being recognised when 'guessed'. A future solution would be to write the relevant code to fix this, however, this was an issue that I was unable to resolve on this occasion
 - I also added commas after each option in the words list as the terminal would generate all of them when a guess was made as I hadn't coded correctly
 - As per the 'deploying our project' tutorial I added \n to any input method used to work around the known quirk
 
@@ -85,7 +86,7 @@ I have tested this project by completing the following:
 ## Technologies Used
 
 - Python
-- GutHub
+- GitHub
 - Heroku
 - Code Anywhere
 - [Am I Responsive](https://ui.dev/amiresponsive): Confirming the responsiveness of the game
