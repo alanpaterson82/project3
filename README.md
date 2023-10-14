@@ -39,12 +39,27 @@ To explain this further I have included a Flowchart using Lucidchart:
 
 ![Flowchart](documentation/hangmanflowchart.png)
 
-Future Plans
+## Future Plans
 
-To further improve the user experience in future versions I would limit the guesses (i.e only allow single letters with an appropriate warning if this is not adhered to).
-I would also include improved graphics with incorrect guesses resulting in a symbolic body part being added to the hangman's noose as per the classic game
+- To further improve the user experience in future versions I would limit the guesses (i.e only allow single letters with an appropriate warning if this is not adhered to).
+- I would also include improved graphics with incorrect guesses resulting in a symbolic body part being added to the hangman's noose as per the classic game
 
+## Testing
 
+I have tested this project by completing the following:
 
+- Inputting the through the CI PEP8 Python validator which confirmed that there were no errors
+
+![PEP8 Validator](documentation/pep8pythonvalidator.png)
+
+- Playinh multiple games via the Code Anywhere terminal and the Heroku deployment portal to determine the various outcomes and to ensure that the message prompts and alerts were valid and relevant
+
+## Bugs
+
+- I removed the capitqal letters from the list of possible words as they were not being recognised. A future solution would be to write the relevant code to fix this, however, this was an issue that I was unable to resolve on this occasion
+- I also added commas after each option in the words list as the terminal would generate all of them when a guess was made as I hadn't coded correctly
+- As per the 'deploying our project' tutorial I added \n to any input method used to work around the known quirk
+
+## Technologies Used
 
 
