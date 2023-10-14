@@ -17,7 +17,7 @@ words = [
 
 def play_round():
     name = input("Type your name:\n")
-    print("Good luck", name"!")
+    print("Good luck", name)
 
     word = random.choice(words)
     print("\nChoose a letter or type a word")
