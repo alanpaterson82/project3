@@ -33,7 +33,7 @@ def play_round():
                 failed += 1
         if failed == 0:
             print("\n\nCongratulations!")
-            print("\nThe word was:", word)
+            print("\nThe word was", word)
             break
         guess = input("\n\nChoose a letter or type a word:\n")
         guesses += guess
