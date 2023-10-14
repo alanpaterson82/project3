@@ -49,11 +49,12 @@ def main():
     play_again = True
     while play_again:
         play_round()
-        play_again_response = input("\n\nPress y then 'Enter' to play again, or any other key then 'Enter' to exit: ").strip().lower()
+        play_again_response = input("\n\nPress y then 'Enter' to play again,\
+ or any other key then 'Enter' to exit: ").strip().lower()
 
         if play_again_response != 'y':
             print("Thank you for playing. Good Bye!")
             play_again = False
 
-main()
 
+main()
