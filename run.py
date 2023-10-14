@@ -14,6 +14,7 @@ words = [
     "leopard",
 ]
 
+
 def play_round():
     name = input("Type your name:\n")
     print("Good luck", name)
@@ -43,17 +44,16 @@ def play_round():
             if tries == 0:
                 print("\n\nBetter Luck Next Time! The word was", word)
 
+
 def main():
     play_again = True
     while play_again:
         play_round()
-        play_again_response = input(
-            "\n\nPress y then 'Enter' to play again, or any other key then 'Enter' to exit").strip().lower()
+        play_again_response = input("\n\nPress y then 'Enter' to play again, or any other key then 'Enter' to exit: ").strip().lower()
 
         if play_again_response != 'y':
             print("Thank you for playing. Good Bye!")
             play_again = False
 
 main()
-
 
