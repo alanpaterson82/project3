@@ -60,6 +60,36 @@ I have tested this project by completing the following:
 - I also added commas after each option in the words list as the terminal would generate all of them when a guess was made as I hadn't coded correctly
 - As per the 'deploying our project' tutorial I added \n to any input method used to work around the known quirk
 
+<br>
+
 ## Technologies Used
+
+- Python
+- GutHub
+- Heroku
+- Code Anywhere
+- [Am I Responsive](https://ui.dev/amiresponsive): Confirming the responsiveness of the game
+- [Lucidchart](https://www.lucidchart.com): Used to create a flowchart to demonstrate how the game works
+
+<br>
+
+## Deployment
+
+- The project was deployed via Heroku using the following steps:
+
+1. Adding the relevant buildpacks (heroku/python and heroku/nodejs in that order)
+2. Connecting to GitHub
+3. Using the manual deploy option
+
+<br>
+
+## Credits
+
+Various Python Tutorials including:
+
+[Python Hangman Game](https://www.pythonforbeginners.com/code-snippets-source-code/game-hangman)<br>
+[Hangman Guide](https://biteresources.com/attachments/article/20/Hangman%20Guide.pdf)<br>
+[Creating A Basic Hangman Game](https://www.youtube.com/watch?v=5x6iAKdJB6U)<br>
+[A Simple Hangman Game](https://replit.com/talk/share/A-Simple-Hangman-Game/78420)
 
 
