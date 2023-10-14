@@ -37,4 +37,4 @@ while tries > 0:
         print("\nThat's Not Right")
         print("\nYou have", +tries, "remaining")
         if tries == 0:
-            print("\n\nBetter Luck Next Time!")
+            print("\n\nBetter Luck Next Time! The word was", word)
