@@ -19,7 +19,7 @@ def play_round():
     print("Good luck", name)
 
     word = random.choice(words)
-    print("\nChoose a letter")
+    print("\nChoose a letter or type a word")
     guesses = ""
     tries = 10
     while tries > 0:
@@ -34,7 +34,7 @@ def play_round():
             print("\n\nCongratulations!")
             print("\nThe word was:", word)
             break
-        guess = input("\n\nChoose a letter:\n")
+        guess = input("\n\nChoose a letter or type a word:\n")
         guesses += guess
         if guess not in word:
             tries -= 1
