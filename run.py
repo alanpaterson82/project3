@@ -40,7 +40,7 @@ def play_round():
         if guess not in word:
             tries -= 1
             print("\nThat's Not Right")
-            print("\nYou have", +tries, "remaining")
+            print("\nYou have", +tries, "tries remaining")
             if tries == 0:
                 print("\n\nBetter Luck Next Time! The word was", word)
 
