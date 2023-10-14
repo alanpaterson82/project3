@@ -14,7 +14,9 @@ The live project can be found [here](https://project3--hangman-4b777c3fbb05.hero
 
 ![Type Your Name](documentation/TypeYourName.png)
 
-- You are then prompted to guess either a letter that may be part of the word, or the whole word at once ('Choose a letter or type a word')
+- You are then prompted to guess either a letter that may be part of the word, or the whole word at once
+
+![Good Luck Choose A Letter](documentation/GoodLuckChooseALetter.png)
 
 - If you guess a letter it will show where in the word that letter belongs
 
